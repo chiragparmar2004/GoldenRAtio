@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(127, 187, 255);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    max-width: 440px;
+}
+
+.input {
+    width: 100px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+canvas {
+    z-index: -1;
+}
+
+input[type="range"] {
+    z-index: 2;
+    margin: 0 0 0 7px;
+    width: 414px;
+    height: 17px;
+    border: none;
+}
+
+.spacer {
+    height: 15px;
+}
+
+.control {
+    position: relative;
+    height: 50px;
+    width: 170px;
+}
+
+.control div {
+    position: absolute;
+    min-width: 60px;
+    text-align: center;
+}
+
+.control .label {
+    font: bold 13pt Arial;
+    border-top: 2px solid darkblue;
+}
+.label {
+     margin-right:100px;
+}
+
+.instruction {
+    position: absolute;
+    left: 180px;
+    top: 160px;
+    display: inline-block;
+    width: 165px;
+}
+
+.btn {
+    z-index: 2;
+}
+
+.canvas-container {
+    position: relative;
+}
+
+.output {
+    position: absolute;
+}
+
+.note {
+    position: relative;
+    font-size: 0.7rem;
+}
+
+.footer {
+    font: 0.7rem Arial;
+    color: #6600cc;
+}
+#f2t{
+    margin-top: -20px;
+}
+#f2{
+    margin-left: 70px;
+    margin-top:-10px;
+    color: blue;
+    
+}
+
+#f1{
+    margin-top:-10px;
+    margin-left: 70px;
+}
+#instr{
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+
+#f1a{
+    margin-top: -20px;
+}
+
+.label{
+    margin-right: -20px;
+}
+
+/* <button class="button-8" role="button">Button 8</button> */
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    width: 100px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+
+
+  .button-73 {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    /* padding: 1rem 1.3rem; */
+    quotes: auto;
+    scale: 0.6;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }

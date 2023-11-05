@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="dea.css">
+    <!-- <link rel="stylesheet" type="text/css" href="tes.css"> -->
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Golden Ratio Example</title>
+</head>
+<body>
+    <div class="container">
+        <input value="100" oninput="onChg()" onchange="onChg()" id="num"  class="input-style" type="text">
+        <canvas id="canvasArrows"></canvas>
+        <input type="range" id="r1" value="72" min="0" max="100" step=".01" oninput="go()" onchange="go()">
+        <div class="spacer"></div>
+        <div class="control">
+            <div id="f2t">100</div>
+            <div id="f2a">100</div>
+            <div class="label" ></div>
+            <div id="f2" style="color:black;"></div>
+        </div>
+        <div class="control">
+            <div id="f1a">100</div>
+            <div id="f1b">0</div>
+            <div class="label"></div>
+            <div id="f1">undefined</div>
+        </div>
+        <div class="instruction">
+            <div id="instr">Try to make these the same.</div>
+            <button id="phiBtn" class="button-73"  role="button" onclick="makePhi()">&nbsp;=&nbsp;</button>
+        </div>
+        <button id="landBtn" class="button-8" role="button"onclick="toggleLand()">Landscape</button>
+<!-- <button class="button-30" role="button">Button 30</button> -->
+
+        <div class="canvas-container">
+            <canvas id="canvasRect"></canvas>
+            <div id="rectw" class="output">100</div>
+            <div id="recth" class="output">100</div>
+        </div>
+  <!-- HTML !-->
+
+
+    </div>
+    <script src="tea.js"></script>
+</body>
+</html>
+ 
+ 
+  
