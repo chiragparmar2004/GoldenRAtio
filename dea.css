@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(127, 187, 255);
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 .container {
